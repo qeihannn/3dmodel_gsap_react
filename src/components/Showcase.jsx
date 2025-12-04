@@ -11,7 +11,7 @@ const Showcase = () => {
                 scrollTrigger: {
                     trigger: '#showcase',
                     start: 'top top',
-                    end: 'bottom top',
+                    end: '+=150%',
                     scrub: true,
                     pin: true,
                 }
@@ -27,13 +27,13 @@ const Showcase = () => {
     return (
         <section id="showcase">
             <div className="media">
-                <video src="/videos/game.mp4" loop muted autoPlay playsInline />
+                <video src="/videos/game.mp4" loop muted playsInline />
                 <div className="mask">
                     <img src="/mask-logo.svg" />
                 </div>
             </div>
 
-            <div className="content">
+            <div className="content pt-10">
                 <div className="wrapper">
                     <div className="lg:max-w-md">
                         <h2>Rocket Chip</h2>
