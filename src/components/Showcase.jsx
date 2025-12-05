@@ -11,7 +11,7 @@ const Showcase = () => {
                 scrollTrigger: {
                     trigger: '#showcase',
                     start: 'top top',
-                    end: '+=150%',
+                    end: 'bottom top',
                     scrub: true,
                     pin: true,
                 }
@@ -33,7 +33,7 @@ const Showcase = () => {
                 </div>
             </div>
 
-            <div className="content pt-10">
+            <div className="content">
                 <div className="wrapper">
                     <div className="lg:max-w-md">
                         <h2>Rocket Chip</h2>
