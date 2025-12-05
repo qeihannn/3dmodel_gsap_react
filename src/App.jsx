@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import ProductViewer from "./components/ProductViewer.jsx";
@@ -15,15 +13,6 @@ import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
-
-        useEffect(() => {
-        const handle = setTimeout(() => {
-            ScrollTrigger.refresh();
-        }, 500);
-
-        return () => clearTimeout(handle);
-        }, []);
-
 
     return (
         <main>
