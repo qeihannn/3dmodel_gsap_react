@@ -22,7 +22,7 @@ const App = () => {
         <Showcase />
         <Performance />
         <Features />
-        <Highlight />
+        <Highlight /> 
         <Footer />
         
     </main>
